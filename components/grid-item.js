@@ -26,15 +26,14 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 
 export const WorkGridItem = ({
     children,
-    category = 'projects',
-    id,
+    href,
     title,
     thumbnail
 }) => (
     <Box w="100%" textAlign="center">
         <LinkBox
             as={NextLink}
-            href={`/${category}/${id}`}
+            href={href}
             scroll={false}
             cursor="pointer"
         >
@@ -50,7 +49,7 @@ export const WorkGridItem = ({
                 />
             </Flex>
 
-            <LinkOverlay as="div" href={`/${category}/${id}`}>
+            <LinkOverlay as="div" href={href}>
                 <Text mt={2} fontSize={20}>
                     {title}
                 </Text>
