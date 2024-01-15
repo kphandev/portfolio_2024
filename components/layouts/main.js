@@ -50,7 +50,7 @@ const Main = ({ children, router }) => {
             <Container maxW="container.md" pt="20">
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5 }}>
                     {
-                        variant === 'mobile' ? (
+                        (variant === 'mobile' && showLargeModel===true) ? (
                             <>
                                 {children}
                                 <LazyModelViewer style={viewerStyle} />
