@@ -40,7 +40,7 @@ const Main = ({ children, router }) => {
         <Box as="main" pb={8}>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-                <meta name="description" content="Explore the innovative world of KPhan.dev – a blend of technology, creativity, and development. Dive into my portfolio to see unique projects, insights, and the journey of a full-stack developer pushing the boundaries of web development." />
+                <meta name="description" content="Welcome to KPhan.dev, Kevin Phan's portfolio that showcases his projects, experience, and the journey as a full-stack developer." />
                 <link rel="icon" href="/images/kphandev_favicon.png" />
                 <title>KPhan.dev - Portfolio</title>
             </Head>
