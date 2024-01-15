@@ -24,7 +24,7 @@ const Page = () => {
         <Layout>
             <Container>
                 <Box display={{ sm: 'flex' }}>
-                    <Box flexGrow={1}>
+                    <Box flexGrow={1} textAlign={{ base: 'center', md: 'left' }} display="flex" flexDirection="column" alignItems={{ base: 'center', md: 'flex-start' }}>
                         <Heading as="h2" variant="page-title">
                             Kevin Phan
                         </Heading>
