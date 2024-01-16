@@ -26,7 +26,7 @@ const milestones = [
     title: 'Emory Solutions LLC.',
     role: 'Full Stack Developer',
     description: ` for a local agency in Northwest Arkansas (NWA) specializing in building custom software, data analytics, and eCommerce tools.`,
-    image: '/images/es_logo.webp'
+    image: '/images/es_logo.png'
   },
   {
     id: 3,
