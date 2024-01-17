@@ -29,7 +29,7 @@ const About = () => (
                 With a diverse skillset, I’m able to share unique perspectives and to be a reliable, versatile member of any team!
                 Curiosity and teamwork are huge for me—there are few things more satisfying than gathering together to solve a common problem with an efficient, sustainable, and easily maintained solution!
                 <br /><br />
-                <b>TL;DR:</b> <br />Versatile, team oriented full-stack dev with a passion creating lasting solutions
+                <b>TL;DR:</b> <br />Versatile, team oriented full-stack dev with a passion for creating lasting, scalable solutions
             </Paragraph>
         </Section>
 

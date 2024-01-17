@@ -77,7 +77,7 @@ const Experience = () => {
                                         ))}
                                     </Flex>
                                 </Flex>
-                                <Text mt={2}>Built lightweight, secure deployment images using Docker and monitoring system health with Kubernetes, along with various utilities in AWS.</Text>
+                                <Text mt={2}>Configured secure and efficient deployment images using Docker, while monitoring system health through Kubernetes, in conjunction with a range of utilities available in AWS.</Text>
                             </GridItem>
 
                             <GridItem w="100%" color={textColor} py={2} borderRadius="md">
