@@ -20,7 +20,7 @@ const Projects = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="e85" title="E85 Station Map" thumbnail={corn} href="">
+            <WorkGridItem id="e85" title="E85 Station Map" thumbnail={corn} href="https://github.com/kphanplan/e85_pumps">
               A niche, mobile-friendly web app for users to find E85 gas stations across the United States.
             </WorkGridItem>
           </Section>
