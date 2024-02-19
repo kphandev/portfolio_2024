@@ -14,7 +14,7 @@ import {
 const milestones = [
   {
     id: 1,
-    date: 'Nov 2022 - Dec 2023',
+    date: '2022 - 2024',
     title: 'Document Crunch Inc.',
     role: 'Full Stack Developer',
     description: `for a fast-paced, fully-remote company building an AI-assisted software platform for evaluating construction contracts and provisions.`,
@@ -22,7 +22,7 @@ const milestones = [
   },
   {
     id: 2,
-    date: 'Apr 2021 - Nov 2022',
+    date: '2021 - 2022',
     title: 'Emory Solutions LLC.',
     role: 'Full Stack Developer',
     description: ` for a local agency in Northwest Arkansas (NWA) specializing in building custom software, data analytics, and eCommerce tools.`,
@@ -30,7 +30,7 @@ const milestones = [
   },
   {
     id: 3,
-    date: 'Nov 2020 - Apr 2021',
+    date: '2020 - 2021',
     title: 'PNC Bank',
     role: 'Software Associate',
     description: 'at a Fortune 500 bank orchestrating deployments, documentation, team coordination, and certification management for everday operations.',
@@ -38,7 +38,7 @@ const milestones = [
   },
   {
     id: 4,
-    date: 'Jul 2020 - Oct 2020',
+    date: '2020',
     title: 'Tech Elevator',
     role: 'Graduate',
     description: 'from a Coding bootcamp that teaches students the fundamentals of software development and matches them with employers.',
@@ -46,7 +46,7 @@ const milestones = [
   },
   {
     id: 5,
-    date: 'May 2019',
+    date: '2019',
     role: 'Graduate',
     title: 'Graduated Ohio State University',
     description: 'from Ohio State with a Bachelor of Science in Nutrition Science',
