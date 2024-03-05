@@ -20,8 +20,8 @@ const Projects = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="e85" title="E85 Station Map" thumbnail={corn} href="https://www.e85roadmap.com/">
-              A specialized mobile web application designed for users to easily find their way to destinations while discovering specialized gas stations along the route.
+            <WorkGridItem id="e85" title="E85 Road Map" thumbnail={corn} href="https://www.e85roadmap.com/">
+              A specialized mobile web application designed for users to easily find their way to destinations while discovering e85 stations along the route.
             </WorkGridItem>
           </Section>
           <Section>
