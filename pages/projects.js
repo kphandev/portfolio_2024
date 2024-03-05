@@ -26,7 +26,7 @@ const Projects = () => {
           </Section>
           <Section>
             <WorkGridItem id="portfolio" title="KPhan.dev" thumbnail={portfolioThumbnail} href="https://github.com/kphanplan/portfolio_2024">
-              Responsive web app to host my portfolio and a place to express myself!
+              Responsive web app to host my portfolio and to showcase my projects!
             </WorkGridItem>
           </Section>
         </SimpleGrid>
