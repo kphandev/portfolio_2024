@@ -20,13 +20,13 @@ const Projects = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <WorkGridItem id="e85" title="E85 Station Map" thumbnail={corn} href="https://e85-a1355a2acc50.herokuapp.com/">
-              A niche, mobile-friendly web app for users to find E85 gas stations across the United States.
+            <WorkGridItem id="e85" title="E85 Station Map" thumbnail={corn} href="https://www.e85roadmap.com/">
+              A specialized mobile web application designed for users to easily find their way to destinations while discovering specialized gas stations along the route.
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem id="portfolio" title="KPhan.dev" thumbnail={portfolioThumbnail} href="https://github.com/kphanplan/portfolio_2024">
-              Responsive web app to host my portfolio and a place to express myself
+              Responsive web app to host my portfolio and a place to express myself!
             </WorkGridItem>
           </Section>
         </SimpleGrid>
