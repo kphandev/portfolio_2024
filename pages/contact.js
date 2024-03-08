@@ -41,10 +41,10 @@ const Contact = () => {
                 </Flex>
                 <Grid mt="2vh" templateColumns={{ base: 'repeat(3, 1fr)', md: 'repeat(3, 1fr)' }} gap={{ base: 2, md: 6 }}>
                     <GridItem w="100%">
-                        <SocialLink href="https://www.linkedin.com/in/kev-phan" label="LinkedIn" icon={FaLinkedin} />
+                        <SocialLink href="https://www.linkedin.com/in/kphandev/" label="LinkedIn" icon={FaLinkedin} />
                     </GridItem>
                     <GridItem w="100%">
-                        <SocialLink href="https://github.com/kphanplan" label="Github" icon={FaGithub} />
+                        <SocialLink href="https://github.com/kphandev" label="Github" icon={FaGithub} />
                     </GridItem>
                     <GridItem w="100%">
                         <SocialLink href="mailto:thekphantastic@gmail.com" label="Gmail" icon={FaEnvelope} />
