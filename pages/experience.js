@@ -2,8 +2,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Milestones from '../components/timeline'
 
-import { Heading, GridItem, Text, Box, Grid, useColorModeValue, Flex, Tag, Button } from '@chakra-ui/react'
-import { FaReact, FaVuejs, FaPython, FaNodeJs, FaGolang, FaDocker, FaAws, FaHandshake, FaFileDownload  } from 'react-icons/fa6';
+import { Heading, GridItem, Text, Box, Grid, useColorModeValue, Flex, Tag } from '@chakra-ui/react'
+import { FaReact, FaVuejs, FaPython, FaNodeJs, FaGolang, FaDocker, FaAws, FaHandshake  } from 'react-icons/fa6';
 import { DiPostgresql, DiMysql } from "react-icons/di";
 import { TbBrandThreejs } from "react-icons/tb";
 import { BiLogoKubernetes } from "react-icons/bi";
