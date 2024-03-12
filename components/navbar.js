@@ -16,6 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
+import { FaFileDownload } from 'react-icons/fa';
 
 const LinkItem = ({ href, path, children }) => {
     const active = path === href
@@ -75,6 +76,9 @@ const Navbar = props => {
                     <LinkItem href="/experience" path={path}>experience</LinkItem>
                     <LinkItem href="/projects" path={path}>projects</LinkItem>
                     <LinkItem href="/contact" path={path}>contact</LinkItem>
+                    <LinkItem href="/KPhanResume2024.pdf" download style={{display: 'block', textDecoration: 'none', color: 'inherit' }}>
+                        resume
+                    </LinkItem>
                 </Stack>
 
                 {/* Hamburger Menu */}
@@ -103,6 +107,9 @@ const Navbar = props => {
                                 </Link>
                                 <Link as={NextLink} href="/contact">
                                     <MenuItem>contact</MenuItem>
+                                </Link>
+                                <Link as="a" href="/KPhanResume2024.pdf" download icon={<FaFileDownload />}>
+                                    <MenuItem>download resume</MenuItem>
                                 </Link>
                             </MenuList>
                         </Menu>
