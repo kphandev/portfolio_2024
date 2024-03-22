@@ -20,6 +20,7 @@ const Main = ({ children, router }) => {
         width: '100%'
     };
 
+    // adds a scrolling tab text effect
     useEffect(() => {
         const originalTitle = "KPhan.dev - Full Stack Dev | ";
         let i = 0;
